@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Blog | Hu Wenjia</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="alternate icon" type="image/png" href="assets/i/favicon.png">
+  <link rel="stylesheet" href="assets/css/amazeui.min.css"/>
+  <link rel="stylesheet" href="assets/css/app.css"/>
+  <style type="text/css">
+    @media only screen and (min-width: 641px) {
+      .navbar {
+        position: static;
+      }
+      .mynav {
+        display: none;
+      } 
+    }
+    @media only screen and (max-width: 640px) {
+      .navbar {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<header class="navbar">
+  <div class="am-container">
+    <div class="am-topbar-brand">
+      <a href="index">Hello, I am Hu Wenjia</a>
+    </div>
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-secondary am-show-sm-only"
+    data-am-collapse="{target: '#collapse-head'}"><span class="am-sr-only">导航切换</span> <span
+    class="am-icon-bars"></span></button>
+    <div class="am-collapse am-topbar-collapse" id="collapse-head">
+      <ul class="am-nav am-nav-pills am-topbar-right">
+        <li><a href="index">Home</a></li>
+        <li><a href="about">About</a></li>
+        <li><a href="portfolio">Portfolio</a></li>
+        <li class="am-active"><a href="blog">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="am-g am-g-fixed blog-g-fixed">
+  <div class="am-u-md-9 am-u-md-push-3">
+    <article class="blog-main">
+      <h3 class="am-article-title blog-title">
+        <a href="#">Google fonts 的字體（display 篇）</a>
+      </h3>
+      <h4 class="am-article-meta blog-meta">by <a href="">open</a> posted on 2014/06/17 under <a href="#">字体</a></h4>
+
+      <div class="am-g blog-content">
+        <div class="am-u-sm-12">
+          <p>看著自己的作品，你的喜悅之情溢於言表，差點就要說出我要感謝我的父母之類的得獎感言。但在你對面的客戶先是一點表情也沒有，又瞬間轉為陰沉，抿了抿嘴角冷冷的說……</p>
+
+          <p>「我要一種比較跳的感覺懂嗎？」</p>
+        </div>
+      </div>
+    </article>
+
+    <hr class="am-article-divider blog-hr">
+
+    <!--blog-pagination-->
+    <ul class="am-pagination blog-pagination">
+      <li class="am-pagination-prev"><a href="">&laquo; 上一页</a></li>
+      <li class="am-pagination-next"><a href="">下一页 &raquo;</a></li>
+    </ul>
+  </div>
+
+  <div class="am-u-md-3 am-u-md-pull-9 my-sidebar">
+    <div class="am-offcanvas" id="sidebar">
+      <div class="am-offcanvas-bar">
+          <ul class="am-nav mynav">
+            <li class="am-nav-header">Hello, I am Hu Wenjia</li>
+            <li><a href="index">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="portfolio">Portfolio</a></li>
+            <li class="am-active"><a href="blog">Blog</a></li>
+          </ul>
+          <ul class="am-nav">
+            <li class="am-nav-header">目录</li>
+            <li><a href="#">原文</a></li>
+            <li><a href="#">作者简介</a></li>
+            <li><a href="#">文章赏析</a></li>
+            <li><a href="#">读者评论</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <a href="#sidebar" class="am-btn am-btn-sm am-icon-bars am-show-sm-only my-button"  data-am-offcanvas="{target: '#sidebar', effect: 'push'}"><span class="am-sr-only">侧栏导航</span></a>
+</div>
+
+<footer class="blog-footer">
+  <p>blog template<br/>
+    <small>© Copyright XXX. by the AmazeUI Team.</small>
+  </p>
+  <div data-am-widget="gotop" class="am-gotop am-gotop-fixed">
+    <a href="#top" title="">
+      <i class="am-icon-btn am-icon-arrow-up am-success"></i>
+    </a>
+  </div>
+</footer>
+
+<!--[if lt IE 9]>
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/polyfill/rem.min.js"></script>
+<script src="assets/js/polyfill/respond.min.js"></script>
+<script src="assets/js/amazeui.legacy.js"></script>
+<![endif]-->
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/amazeui.min.js"></script>
+<!--<![endif]-->
+
+</body>
+</html>
